@@ -2,19 +2,23 @@ header
 {
   position: sticky;
   top: 0;
-  padding: 10px 16px;
-  background: rgba(255, 179, 198, 1);
+  padding: 20px 16px;
+  background: linear-gradient(rgba(194, 48, 84, 1), rgba(255, 179, 198, 1));
   color: #f1f1f1;
   text-align: center;
 
   button
   {
-    background:rgba(251, 111, 146, 1) ;
+    background:rgba(255, 192, 208, 1) ;
     color: rgba(139, 25, 54, 1);
     border:none;
     font-family: cursive;
-    font-size:20px;
+    font-weight: bold;
+    font-size:15px;
     margin-right: 40px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 200px;
   }
   .open-button {
     background:rgba(251, 111, 146, 1) ;
@@ -69,6 +73,18 @@ font-weight: bold;
     font-family: Calibri, serif;
     font-size: 25px;
   }
+}
+#bannerimage
+{
+  width: 100%;
+margin-bottom: 70px;
+}
+#photoOfMe
+{
+  width: 20%;
+  background: rgba(255, 229, 236, 1);
+  margin-left: 40px;
+  margin-bottom : 40px;
 }
 
 html, body
