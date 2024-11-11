@@ -96,6 +96,15 @@ header
   color: rgba(139, 25, 54, 1);
   background-color: rgba(251, 111, 146, 1);
 }
+.BSRA
+{
+  width: 100%;
+  font-family: Calibri, serif;
+  font-size: 60px;
+  color: rgba(139, 25, 54, 1);
+  background-color: rgba(251, 111, 146, 1);
+  margin-top: 20px;
+}
 
 .tekst
 {
@@ -105,7 +114,16 @@ header
   font-size: 30px;
   color: rgba(251, 111, 146, 1);
   text-align: left;
-
+}
+.logo
+{
+  padding: 20px;
+  width: 100%;
+  font-family: Calibri, serif;
+  font-size: 30px;
+  color: rgba(251, 111, 146, 1);
+  text-align: center;
+  background-color: rgba(255, 192, 208, 1);
 }
 
 
