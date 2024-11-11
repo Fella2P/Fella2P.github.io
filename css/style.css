@@ -93,6 +93,7 @@ header
   width: 100%;
   font-family: Calibri, serif;
   font-size: 60px;
+  font-weight: bold;
   color: rgba(139, 25, 54, 1);
   background-color: rgba(251, 111, 146, 1);
 }
@@ -115,6 +116,7 @@ header
   color: rgba(251, 111, 146, 1);
   text-align: left;
 }
+
 .logo
 {
   padding: 20px;
@@ -124,6 +126,26 @@ header
   color: rgba(251, 111, 146, 1);
   text-align: center;
   background-color: rgba(255, 192, 208, 1);
+}
+.BSRA_screenshots
+{
+  padding: 20px;
+  width: 100%;
+  font-family: Calibri, serif;
+  font-size: 30px;
+  color: rgba(251, 111, 146, 1);
+  text-align: center;
+}
+.expTable
+{
+  padding: 20px;
+  width: 100%;
+  font-family: Calibri, serif;
+  font-size: 30px;
+  color: rgba(251, 111, 146, 1);
+  text-align: left;
+  background-color: rgba(255, 192, 208, 1);
+
 }
 
 
