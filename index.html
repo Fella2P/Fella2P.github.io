@@ -34,8 +34,8 @@
   <a href="#skokownia"><button>Experience</button></a>
   <a href="https://drive.google.com/file/d/1kBoFlQP3c0QWvcmJGyeHS0oWMfNWzmxW/view?usp=sharing" target="_blank"><button>Resume</button></a>
   <button id="myBtn" onclick="displayContact()">Contact</button>
-  <div id="myModal" class="modal">
-    <div class="modal-content">
+  <div id="myModal" class="modal" >
+    <div class="modalContact">
       <span class="close" onclick="hideContact()">&times;</span>
       <p>Mail: amela.j.03@gmail.com</p>
       <p>Phone: 5042137</p>
@@ -57,6 +57,7 @@
     </td>
   </tr>
 </table>
+
 <table class="nazwa">
   <tr>
     <th>Experience</th>
@@ -85,6 +86,7 @@
     </td>
   </tr>
 </table>
+
 <table class="nazwa" >
   <tr>
     <th>University Projects</th>
@@ -96,16 +98,16 @@
      </td>
   </tr>
 </table>
+
 <table class="BSRA">
   <tr>
     <th>Bunny Shooter Reborn</th>
 </table>
-
 <table class="tekst">
   <tr>
     <td>
-      <video width="420" height="340" controls style="margin-right: 40px">
-        <source src="jasny_chuj.mp4" alt="filmik" type="video/mp4" >
+      <video width="500" height="300" controls style="margin-right: 40px">
+        <source src="2024-11-29 18-36-22.mkv" alt="filmBSRA" type="video/mp4" >
       </video>
     </td>
     <td class="BSRApoints">
@@ -117,21 +119,110 @@
       </ul>
     </td>
     <td style="align:center">
-        First Major project that took 8 months during my classes. With my group we decided to make a top-down shooter with cute and simple graphics inspired by the Happy Tree Friends series.
-      As a project manager I coordinated a group of 4-5 people and guided us through the whole project. I was also responsible for the UI- how it looked and worked in the game. I also worked on the code inside that allowed the player to navigate the game and also power up their character.
-    </td>
+        Game about a small cute rabbit who picked up a weapon of mass destruction in a form of a trumpet. Cute, sweet, with a bit of weirdness to it because who would have thought small cute animals would shoot other sweet critters with... notes?  </td>
   </tr>
 </table>
-<table class="BSRA_screenshots">
+
+<button id="BSRAButton" class="BSRAButton" onclick="displayInfoBSRA()">More about...</button>
+<div id="MoreOnBSRA" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="hideInfoBSRA()">&times;</span>
+    <table class="tekst">
+      <tr>
+        <td>
+          <img id="poster" width="600px" src="img/Screenshot 2024-11-29 125353.png" alt="post" >
+        </td>
+        <td class = "panthDesc" style="align:center">
+          Pantheonium is a story I've been working on since 6th grade of primary school. It evolved as my style and interests changed and from a simple story about alchemists it turned into a massive project that tells the story of greek gods and heroes in space. In spare time between university projects I work on writing down the story and expanding it. Currently I'm working on version 5.0 of the story and with help of my friends I can tell it through the Starfinder TTRPG system.
+        </td>
+      </tr>
+    </table>
+    <table class="tekst">
+      <tr>
+
+        <td class = "panthDesc" style="align:center">
+          Pantheonium is a story I've been working on since 6th grade of primary school. It evolved as my style and interests changed and from a simple story about alchemists it turned into a massive project that tells the story of greek gods and heroes in space. In spare time between university projects I work on writing down the story and expanding it. Currently I'm working on version 5.0 of the story and with help of my friends I can tell it through the Starfinder TTRPG system.
+        </td>
+        <td>
+          <img id="poster" width="600px" src="img/Screenshot 2024-11-29 125353.png" alt="post" >
+        </td>
+      </tr>
+    </table>
+    <table class="tekst">
+      <tr>
+        <td>
+          <img id="poster" width="600px" src="img/Screenshot 2024-11-29 125353.png" alt="post" >
+        </td>
+        <td class = "panthDesc" style="align:center">
+          Pantheonium is a story I've been working on since 6th grade of primary school. It evolved as my style and interests changed and from a simple story about alchemists it turned into a massive project that tells the story of greek gods and heroes in space. In spare time between university projects I work on writing down the story and expanding it. Currently I'm working on version 5.0 of the story and with help of my friends I can tell it through the Starfinder TTRPG system.
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<table class="BSRA">
+  <tr>
+    <th>Cats & Beans</th>
+</table>
+
+<table class="tekst">
   <tr>
     <td>
-      <img id="screenshot1" src="img/Screenshot 2024-11-29 125353.png" width="29.5%" alt="BSRA1" style="margin-right: 30px">
-      <img id="screenshot3" src="img/bsra_kursor.png" width="24.2%" alt="BSRA3" style="margin-right: 30px">
-      <img id="screenshot2" src="img/Screenshot 2024-11-29 125555.png" width="29.5%" alt="BSRA2">
-
+      <video width="500" height="300" controls style="margin-right: 40px">
+        <source src="2024-11-29 18-53-58.mp4" alt="filmMocha" type="video/mp4" >
+      </video>
+    </td>
+    <td class="BSRApoints">
+      <ul>
+        <li style="white-space:nowrap"> Design</li>
+        <li style="white-space:nowrap"> Power up code</li>
+        <li> 2D icon art</li>
+        <li> Point counter</li>
+      </ul>
+    </td>
+    <td style="align:center">
+     At night when their owners go to sleep two little cats jump around a cafe and collect beans of coffee. They have to be careful because tea is also on the shelves and it might hurt them.
     </td>
   </tr>
 </table>
+<button id="BSRAButton" class="MochaButton" onclick="displayInfoMocha()">More about...</button>
+<div id="MoreOnMocha" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="hideInfoMocha()">&times;</span>
+    <table class="tekst">
+      <tr>
+        <td>
+          <img id="poster" width="600px" src="img/mochafirstscreen.png" alt="post" >
+        </td>
+        <td class = "panthDesc" style="align:center">
+          Pantheonium is a story I've been working on since 6th grade of primary school. It evolved as my style and interests changed and from a simple story about alchemists it turned into a massive project that tells the story of greek gods and heroes in space. In spare time between university projects I work on writing down the story and expanding it. Currently I'm working on version 5.0 of the story and with help of my friends I can tell it through the Starfinder TTRPG system.
+        </td>
+      </tr>
+    </table>
+    <table class="tekst">
+      <tr>
+
+        <td class = "panthDesc" style="align:center">
+          Pantheonium is a story I've been working on since 6th grade of primary school. It evolved as my style and interests changed and from a simple story about alchemists it turned into a massive project that tells the story of greek gods and heroes in space. In spare time between university projects I work on writing down the story and expanding it. Currently I'm working on version 5.0 of the story and with help of my friends I can tell it through the Starfinder TTRPG system.
+        </td>
+        <td>
+          <img id="poster" width="600px" src="img/mochafirstscreen.png" alt="post" >
+        </td>
+      </tr>
+    </table>
+    <table class="tekst">
+      <tr>
+        <td>
+          <img id="poster" width="600px" src="img/mochafirstscreen.png" alt="post" >
+        </td>
+        <td class = "panthDesc" style="align:center">
+          Pantheonium is a story I've been working on since 6th grade of primary school. It evolved as my style and interests changed and from a simple story about alchemists it turned into a massive project that tells the story of greek gods and heroes in space. In spare time between university projects I work on writing down the story and expanding it. Currently I'm working on version 5.0 of the story and with help of my friends I can tell it through the Starfinder TTRPG system.
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
 
 <table class="Pantheon">
   <tr>
@@ -163,9 +254,10 @@
 <table class="BSRA_screenshots" >
   <tr>
     <td >
-      <img id="screenshot4" src="img/cap splash.png" width="30%" alt="Panth1" style="margin-right: 20px">
+      <img id="screenshot6" src="img/captain_turnaround_start.png" width="25.5%" alt="Panth1" style="margin-right: 20px">
       <img id="screenshot5" src="img/Animation1.gif" width="28.5%" alt="Panth2" style="margin-right: 20px">
-      <img id="screenshot6" src="img/captain_turnaround_start.png" width="25.5%" alt="Panth3">
+      <img id="screenshot4" src="img/cap splash.png" width="30%" alt="Panth3">
+
     </td>
   </tr>
 </table>
