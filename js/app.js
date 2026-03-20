@@ -25,6 +25,10 @@ function hideContactOnWindowClick(event) {
   if (event.target === modal) {
     modal.style.display = "none";
   }
+  var modal = document.getElementById("MoreOnOS");
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
 }
 
 //BSRA
@@ -46,6 +50,17 @@ function hideInfoMocha() {
 
 function displayInfoMocha() {
   var modal = document.getElementById("MoreOnMocha");
+  modal.style.display = "block";
+}
+
+//OS
+function hideInfoOS() {
+  var modal = document.getElementById("MoreOnOS");
+  modal.style.display = "none";
+}
+
+function displayInfoOS() {
+  var modal = document.getElementById("MoreOnOS");
   modal.style.display = "block";
 }
 
